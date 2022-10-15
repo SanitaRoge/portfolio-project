@@ -1,8 +1,43 @@
+:root {
+  --primary-color: #ececec;
+  --secondary-color: #385170;
+  --text-font-family: "Roboto", sans-serif;
+  --button-font-family: "Montserrat", sans-serif;
+}
+body {
+  font-family: var(--text-font-family);
+  color: var(--primary-color);
+}
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 64px;
+}
+h2 {
   font-weight: bold;
+  font-size: 24px;
 }
 p {
-  font-family: "Montserrat", sans-serif;
   font-weight: normal;
+  font-size: 18px;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 160px;
+  padding-bottom: 30px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.btn-branding {
+  font-family: var(--button-font-family);
+  font-weight: normal;
+  border-radius: 50px;
+  padding: 18px 30px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.btn-branding:hover {
+  font-weight: bold;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
