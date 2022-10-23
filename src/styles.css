@@ -18,6 +18,11 @@ h2 {
   font-weight: bold;
   font-size: 24px;
 }
+h4 {
+  font-family: var(--button-font-family);
+  color: #66bfbf;
+  font-size: 18px;
+}
 p {
   font-weight: normal;
   font-size: 18px;
@@ -29,8 +34,13 @@ p {
   padding-bottom: 30px;
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  
 }
+
+.about-hero {
+  padding-top: 160px;
+}
+
+
 
 .btn-branding {
   font-family: var(--button-font-family);
