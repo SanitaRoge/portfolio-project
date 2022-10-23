@@ -28,6 +28,14 @@ p {
   font-weight: normal;
   font-size: 18px;
 }
+.footer-link {
+  color: var(--primary-color);
+}
+.footer-link:hover {
+  color: var(--primary-color);
+  font-size: 150%;
+  transition: all 200ms ease-in-out;
+}
 
 .hero {
   text-align: center;
