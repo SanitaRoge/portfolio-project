@@ -13,6 +13,7 @@ body {
 h1 {
   font-weight: normal;
   font-size: 64px;
+  text-transform: uppercase;
 }
 h2 {
   font-weight: bold;
@@ -36,11 +37,9 @@ p {
   color: var(--primary-color);
 }
 
-.about-hero {
+.content-hero {
   padding-top: 160px;
 }
-
-
 
 .btn-branding {
   font-family: var(--button-font-family);
