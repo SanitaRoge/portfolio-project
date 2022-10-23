@@ -32,13 +32,13 @@ p {
 .hero {
   text-align: center;
   padding-top: 160px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   background-color: var(--secondary-color);
   color: var(--primary-color);
 }
 
 .content-hero {
-  padding-top: 160px;
+  padding-top: 130px;
 }
 
 .btn-branding {
